@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Home{% endblock %} | Xavier Briand: web developer, but not only</title>
+        <meta name="description" content="">
+        <meta name="author" content="Xavier Briand">
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le styles -->
+        <link href="/static/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/pygments.css" rel="stylesheet">
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    </head>
+    <body>
+        <header>
+            <nav class="topbar">
+                <div class="fill">
+                    <div class="container">
+                        <a class="brand" href="/" title="Xavier Briand">xavierbriand.net</a>
+                        <ul class="nav">
+                            <li><a href="/about">About me</a></li>
+                            <li><a href="/freegli">About <strong>Freegli</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div class="content">
+                <div class="page-header">
+                    <h1>Xavier Briand: web developer<small>, but not only</small></h1>
+                </div>
+                <div class="row">
+                    <section class="span11">
+                        {% block body %}{% endblock %}
+                    </section>
+                    <aside class="span5">
+                        {% block sidebar %}{% endblock %}
+                    </aside>
+                </div>
+            </div>
+
+            <footer>
+                <p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Blog</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://xavierbriand.net" property="cc:attributionName" rel="cc:attributionURL">Xavier Briand</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/xavierbriand/blog" rel="dct:source">github.com</a>.
+                <p>
+            </footer>
+        </div> <!-- /container -->
+    </body>
+</html>
+

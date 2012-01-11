@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title %}Blog{% endblock %}
+{% block body %}
+
+    {%- for entry in pagination.get_slice() %}
+        <article class=entry-overview>
+            <div class=date>{{ format_date(entry.pub_date, format='medium') }}</div>
+            <div class=detail>
+                <header>
+                    <h1><a href="{{ link_to('page', slug=entry.slug) }}">{{ entry.title }}</a></h1>
+                </header>
+                {% if entry.summary %}
+                    <section class=summary>{{ entry.render_summary() }}</section>
+                {% endif %}
+            </div>
+        </article>
+    {%- endfor %}
+
+    {% if show_pagination and pagination.pages > 1 %}
+        {{ pagination }}
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,6 @@
+active_modules: [pygments, tags, blog, latex]
+auhtor: Xavier Briand
+canonical_url: http://xavierbriand.net/
+modules:
+    pygments:
+        style: tango
