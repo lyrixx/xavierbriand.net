@@ -6,23 +6,36 @@
             {{ rst.html_title }}
         </header>
     {%- endif %}
-    {% if ctx.pub_date %}
-        <p class=date>written on {{ format_date(ctx.pub_date, format='full') }}
-    {% endif %}
 
     <section>
         {{ rst.fragment }}
     </section>
 
-    {% if ctx.tags %}
+    {% if ctx.tags or ctx.pub_date %}
         <hr />
         <aside>
-            <p class=tags>This entry was tagged
-            {% for tag in ctx.tags|sort(case_sensitive=true) %}
-                {%- if not loop.first and not loop.last %}, {% endif -%}
-                {%- if loop.last and not loop.first %} and {% endif %}
-                <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
-            {%- endfor %}
+            <p>
+                {% if ctx.pub_date %}
+                    This entry was written on {{ format_date(ctx.pub_date, format='full') }}
+                    <br />
+                {% endif %}
+
+                {% if ctx.pub_date and ctx.tags %}
+                    and was tagged
+                {% else %}
+                    This entry was tagged
+                {% endif %}
+
+                {% if ctx.tags %}
+                    {% for tag in ctx.tags|sort(case_sensitive=true) %}
+                        {%- if not loop.first and not loop.last %}, {% endif -%}
+                        {%- if loop.last and not loop.first %} and {% endif %}
+                        <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                    {%- endfor %}
+                {% endif %}
+            </p>
+            <p>
+                If you have any question or comment, You can reach me on <a href="http://twitter.com/xavierbriand" title="@xavierbriand">twitter</a> on via <a href="mailto:&#120;&#097;&#118;&#105;&#101;&#114;&#098;&#114;&#105;&#097;&#110;&#100;&#032;&#064;&#032;&#103;&#109;&#097;&#105;&#108;&#032;&#046;&#032;&#099;&#111;&#109;">email</a>.
             </p>
         </aside>
     {% endif %}

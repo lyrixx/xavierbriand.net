@@ -6,8 +6,18 @@
         <article class=entry-overview>
             <div class=date>{{ format_date(entry.pub_date, format='medium') }}</div>
             <div class=detail>
+                {% if entry.tags %}
+                    <aside>
+                    {% for tag in entry.tags|sort(case_sensitive=true) %}
+                        {%- if not loop.first and not loop.last %}, {% endif -%}
+                        {%- if loop.last and not loop.first %} and {% endif %}
+                        <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                    {%- endfor %}
+                    </aside>
+                {% endif %}
+
                 <header>
-                    <h1><a href="{{ link_to('page', slug=entry.slug) }}">{{ entry.title }}</a></h1>
+                    <h2><a href="{{ link_to('page', slug=entry.slug) }}">{{ entry.title }}</a></h2>
                 </header>
                 {% if entry.summary %}
                     <section class=summary>{{ entry.render_summary() }}</section>
