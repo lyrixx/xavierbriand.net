@@ -31,6 +31,10 @@ Application scalability (uncoupling, optimisation, cache, replication, data part
 * Objective-C, Cocoa, iOs
 * Web server administration
 
+.. class:: btn
+
+`to top <#>`_
+
 ----
 
 Experience
@@ -123,6 +127,10 @@ PHP5 Symfony Web Developer @ `Apsides Communication`_
 
   **Keywords**: PHP4, PHP5, javascript
 
+.. class:: btn
+
+`to top <#>`_
+
 ----
 
 Education
@@ -159,6 +167,10 @@ French high-school diploma in Science
 
 with mention
 
+.. class:: btn
+
+`to top <#>`_
+
 ----
 
 Extra-professional activities
@@ -169,6 +181,10 @@ Extra-professional activities
 * Biking
 * RPG (with real paper inside)
 * Wargames (W40k)
+
+.. class:: btn
+
+`to top <#>`_
 
 .. [#symfony] Symfony is a PHP Web Development Framework. See `Symfony website`_ 
 
