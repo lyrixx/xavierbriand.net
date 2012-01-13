@@ -1,8 +1,11 @@
 public: no
-tags: [me]
 
-CV
-==
+Curriculum Vitae
+================
+
+.. class:: btn
+
+`Experiences <#experience>`_ `Educations <#education>`_  `and... <#extra-professional-activities>`_
 
 Xavier Briand
 -------------
@@ -28,12 +31,14 @@ Application scalability (uncoupling, optimisation, cache, replication, data part
 * Objective-C, Cocoa, iOs
 * Web server administration
 
-Experiences
------------
+----
+
+Experience
+----------
 
 Developer Department Manager @ `SensioLabs`_
 .............................................
-*since july 2011*
+*since july 2011* Paris, France
 
 Planning and HR (*aka developers*) management.
 
@@ -45,7 +50,7 @@ Project monitoring, developers' coaching, training and career management.
 
 Web & mobile developer (Founding partner) @ `Freegli.com`_
 ...........................................................
-*since november 2010*
+*since november 2010* Paris, France
 
 Freegli.com is a daily mobile game service : Every day, at 10:10am, Freegli.com gives you a mobile game became free.
 
@@ -58,7 +63,7 @@ Connection with iTunes search API and Apple Push Notification service.
 
 PHP5 Symfony Web Developer @ `SensioLabs`_ & `Extreme Sensio`_
 ...............................................................
-*from june 2009 to july 2011*
+*from june 2009 to july 2011* Paris, France
 
 * `La Plateforme du bâtiment`_ - Saint-Gobain
   Ecommerce web site lead developer.
@@ -86,7 +91,7 @@ And:
 
 PHP5 Symfony Web Developer (founding partner) @ `Communiquez Plus`_
 ....................................................................
-*from january 2008 to may 2009*
+*from january 2008 to may 2009* Reims, France
 
 In charge of digital media and specifically the Internet.
 Responsible for the design, configuration and development of company's applications and websites.
@@ -105,7 +110,7 @@ Domain name management, DNS, e-mail, e-mailing.
 
 PHP5 Symfony Web Developer @ `Apsides Communication`_
 .....................................................
-*from december 2006 to january 2009*
+*from december 2006 to january 2009* Reims, France
 
 * `EasyPOP-Santé`_
   Video sequence organizer for advertising management with rich interface and browser compatibility issues
@@ -118,6 +123,46 @@ PHP5 Symfony Web Developer @ `Apsides Communication`_
 
   **Keywords**: PHP4, PHP5, javascript
 
+----
+
+Education
+---------
+
+Bachelor's degree in Computer Science and Digital Image Engineering
+....................................................................
+
+  License Professionnelle Informatique Ingénierie de l'Image Numérique
+
+*2004/2005* @ Reims University Institute of Technology, France
+
+1 month internship at BLP architectes, Reims, France
+
+2 years professional degree in network and telecoms
+...................................................
+
+  Diplôme Universitaire Technologique Génie des Télécommunication et Réseaux
+
+*2002/2004* @ Caen University Institute of Technology, France
+
+1 month internship at Gemalto (formerly Axalto), Fareham, United Kingdom
+
+French high-school diploma in Science
+.....................................
+
+  Baccalauréat série Scientifique, option Science et vie de la terre, spécialité Physique/Chimie
+
+*2002/2004* @ Deauville High School, France
+
+----
+
+Extra-professional activities
+-----------------------------
+
+* Photography (`my flickr`_)
+* `Reading`_ (Fantasy, SciFi, geek)
+* Biking
+* RPG (with real paper inside)
+* Wargames (W40k)
 
 .. [#symfony] Symfony is a PHP Web Development Framework. See `Symfony website`_ 
 
@@ -131,5 +176,7 @@ PHP5 Symfony Web Developer @ `Apsides Communication`_
 .. _`Communiquez Plus`: http://app-commplus.com/
 .. _`Apsides Communication`: http://www.apsides-communication.com/
 .. _`easyPOP-Santé`: http://www.easypop-sante.com/
+.. _`my flickr`: http://www.flickr.com/xavierbriand
+.. _`reading`: /last-books/
 
 
