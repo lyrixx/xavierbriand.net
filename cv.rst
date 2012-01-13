@@ -135,6 +135,8 @@ Bachelor's degree in Computer Science and Digital Image Engineering
 
 *2004/2005* @ Reims University Institute of Technology, France
 
+with mention
+
 1 month internship at BLP architectes, Reims, France
 
 2 years professional degree in network and telecoms
@@ -144,6 +146,8 @@ Bachelor's degree in Computer Science and Digital Image Engineering
 
 *2002/2004* @ Caen University Institute of Technology, France
 
+with mention
+
 1 month internship at Gemalto (formerly Axalto), Fareham, United Kingdom
 
 French high-school diploma in Science
@@ -152,6 +156,8 @@ French high-school diploma in Science
   Baccalauréat série Scientifique, option Science et vie de la terre, spécialité Physique/Chimie
 
 *2002/2004* @ Deauville High School, France
+
+with mention
 
 ----
 
