@@ -1,8 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}Blog Archive{% endblock %}
-{% block body %}
 
-  <h1>Blog Archive</h1>
+{% block main_title %}Blog archive{% endblock %}
+
+{% block body %}
 
   <ul class=blog-archive>
   {%- for entry in archive %}

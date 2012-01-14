@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 {% block title %}{{ rst.title }}{% endblock %}
+
+{% if not config.hide_title %}
+    {% block main_title %}{{ rst.html_title }}{% endblock %}
+{% endif %}
+
 {% block body %}
-    {%- if not config.hide_title %}
-        <header>
-            {{ rst.html_title }}
-        </header>
-    {%- endif %}
 
     <section>
         {{ rst.fragment }}
