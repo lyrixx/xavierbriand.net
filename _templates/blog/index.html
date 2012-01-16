@@ -9,8 +9,7 @@
                 {% if entry.tags %}
                     <aside>
                     {% for tag in entry.tags|sort(case_sensitive=true) %}
-                        {%- if not loop.first  %}, {% endif -%}
-                        <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                       <span class="label notice"><a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a></span>
                     {%- endfor %}
                     </aside>
                 {% endif %}

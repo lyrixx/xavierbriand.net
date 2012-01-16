@@ -25,6 +25,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 * |linkedin logo| `LinkedIn (en)`_, `LinkedIn (fr)`_
 * |viadeo logo| `Viadeo (en)`_, `Viadeo (fr)`_
 * |flickr logo| `Flickr`_
+* |delicious logo| `Delicious`_
 
 .. _CV: /cv/
 .. _SensioLabs: http://sensiolabs.com/
@@ -43,6 +44,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 .. _Viadeo (en): http://www.viadeo.com/en/profile/xavier.briand
 .. _Viadeo (fr): http://www.viadeo.com/fr/profile/xavier.briand
 .. _Flickr: http://flickr.com/xavierbriand/
+.. _Delicious: http://delicious.com/xavierbriand/
 
 .. |twitter logo| image:: http://twitter.com/phoenix/favicon.ico
   :alt: Twitter
@@ -75,6 +77,11 @@ You can find me as **xavierbriand** here, here and also here on Internet:
   :height: 16
 
 .. |flickr logo| image:: http://l.yimg.com/g/favicon.ico
+  :alt:
+  :width: 16
+  :height: 16
+
+.. |delicious logo| image:: http://www.google.com/s2/favicons?domain=delicious.com
   :alt:
   :width: 16
   :height: 16
