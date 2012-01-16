@@ -8,10 +8,10 @@ Me is Xavier Briand, currently *Web developper* at `SensioLabs`_.
   Check my `CV`_.
 
 But I'm also a co-creator of `Freegli.com`_ startup (highlights iPhone/iPad games free for one day).
-There is an `iPhone app`_ too
+There is an `iPhone app`_ too.
 
 Otherwise, I do a lot of other things (maybe too much!):
-go working with my bike, `reading fantasy, SciFi, geek books`_ in subway,
+go working with my bike, `read fantasy, SciFi, geek books`_ in subway,
 play RPG with real paper and pen inside, do some warhammer 40k with my friends too, and `take pictures, a lot`_,
 
 Yes, I've got long days.
@@ -31,7 +31,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 .. _SensioLabs: http://sensiolabs.com/
 .. _Freegli.com: http://www.freegli.com/
 .. _iPhone app: http://itunes.apple.com/fr/app/jeux-gratuits-jeu-gratuit/id441824118?mt=8
-.. _reading fantasy, SciFi, geek books: /last-books/
+.. _read fantasy, SciFi, geek books: /last-books/
 .. _take pictures, a lot: http://flickr.com/xavierbriand/
 .. _@xavierbriand: http://twitter.com/xavierbriand
 .. _Stackoverflow Career: http://careers.stackoverflow.com/xavierbriand

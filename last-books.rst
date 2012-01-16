@@ -3,6 +3,18 @@ public: no
 Last books I read
 =================
 
+* **Mobile First**
+
+  *Luke Wroblewski. A Book Apart, 978-1-937557-02-7*
+
+* **Designing for Emotion**
+
+  *Aarron Walter. A Book Apart, 978-1-937557-00-3*
+
+* **Responsive Web Design**
+
+  *Ethan Marcotte. A Book Apart, 978-0-9844425-7-7*
+
 * **A Game of Thrones**
 
   *George R. R. Martin. Bantam Books, 1996, 978-0-553-89784-5*
@@ -33,15 +45,6 @@ Last books I read
 
   *Howard Phillips Lovecraft. eBook*
 
-* **Le Pire des Voyages**
-
 * **Par delà les Montagnes Hallucinées**
 
   *Howard Phillips Lovecraft. eBook*
-
-
-.. book
-  nom prenom. "titre". editeur, date, nb page, ISBN
-
-.. post
-  nom prenom "titre" date de publication, date de lecture, disponible, address
