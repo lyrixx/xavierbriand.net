@@ -8,7 +8,7 @@
         &larr; Next</a></li>
         
         {% for page in range(1, pagination.pages + 1) %}
-            <li class="{% if page == pagination.page %}active{% endif %}"><a href="{{ link_to(pagination.url_key, page=pagination.page) }}">{{ page }}</a></li>
+            <li class="{% if page == pagination.page %}active{% endif %}"><a href="{{ link_to(pagination.url_key, page=page) }}">{{ page }}</a></li>
         {% endfor %}
 
         {% if pagination.has_next -%}
