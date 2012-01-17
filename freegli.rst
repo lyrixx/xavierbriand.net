@@ -18,7 +18,7 @@ a reverse proxy called Varnish [#varnish]_.
 The v2 is currently under development. It will be powered by Symfony2 [#sf2]_ PHP framework and PostgreSQL database (with Pomm [#pomm]_ component).
 This new version will be able to scale up with the constant increase of success of our service.
 
-You can find some of my work under MIT licence on Github:
+You can find some of my work under MIT license on Github:
 
 * `APNs`_ component
 * `FreegliAPNSBundle`_ for Symfony2
