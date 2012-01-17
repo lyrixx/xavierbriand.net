@@ -27,20 +27,17 @@ You can find some of my work under MIT license on Github:
 
 .. _our website: http://www.freegli.com/
 .. _symfony project website: http://symfony-project.org/
-.. _Doctrine website: http://doctrine-orm.com/
-.. _Varnish website: http://.com/
+.. _Doctrine website: http://www.doctrine-project.org/projects/orm/1.2/docs/manual/introduction/en
+.. _Varnish website: https://www.varnish-cache.org/
 .. _Symfony website: http://symfony.com/
-.. _Pomm website: http://pomm.com/
+.. _Pomm website: http://pomm.coolkeums.org/
 .. _APNs: https://github.com/Freegli/APNs
 .. _FreegliAPNSBundle: https://github.com/Freegli/FreegliAPNSBundle
 .. _iTunesStoreWSSearch: https://github.com/Freegli/iTunesStoreWSSearch
 .. _FreegliITunesStoreWSSearchBundle: https://github.com/Freegli/FreegliITunesStoreWSSearchBundle
 
-.. [#sf1.4] symfony is a full stack framework written in PHP 5.2. See `symfony project website`_ 
-.. [#doctrine] Doctrine is a ORM base on the Active Record design pattern. See `doctrine website`_ 
-.. [#varnish] Varnish is a reverse proxy able to improve your website performances. See `Varnish website`_ 
-.. [#sf2] Symfony2 is a full stack framework written in PHP 5.3. See `Symfony website`_ 
-.. [#pomm] Pomm PHP library is a PostgreSQL connection object wrapper. See `Pomm website`_ 
-
-.. TODO:
-   check links
+.. [#sf1.4] symfony is a full stack framework written in PHP 5.2. See `symfony project website`_.
+.. [#doctrine] Doctrine is a ORM base on the Active Record design pattern. See `doctrine website`_.
+.. [#varnish] Varnish is a reverse proxy able to improve your website performances. See `Varnish website`_.
+.. [#sf2] Symfony2 is a full stack framework written in PHP 5.3. See `Symfony website`_.
+.. [#pomm] Pomm is an Object Model Manager for Postgresql. See `Pomm website`_.
