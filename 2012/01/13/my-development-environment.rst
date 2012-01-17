@@ -13,7 +13,7 @@ Shell
 Text editor
   Vim / MacVim / GVim
 
-CSM
+SCM
   Git and Gitolite
 
 And `a good configuration`_.
