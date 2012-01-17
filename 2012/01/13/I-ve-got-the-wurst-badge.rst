@@ -14,7 +14,7 @@ And I'm so proud :D
 .. _my mexican pull request: https://github.com/marcw/MarcWWurstBundle/pull/11
 .. _Sensio Connect Würst connoisseur badge: https://connect.sensiolabs.com/badge/54/wurst-connoisseur
 
-.. |wurst badge| image:: https://connect.sensiolabs.com/media/cache/badge_large/uploads/badge/2cb15ee73bab2f94ba2cfb0a8b9ad4f7.png
+.. |wurst badge| image:: https://connect.sensiolabs.com/badge/sensiolabs-connect/wurst-connoisseur.png?format=badge_large
   :alt: Wurst connoisseur
   :width: 200
   :height: 200
