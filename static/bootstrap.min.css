@@ -1,5 +1,5 @@
 html,body{margin:0;padding:0;}
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;font-family:inherit;}
 table{border-collapse:collapse;border-spacing:0;}
 ol,ul{list-style:none;}
 q:before,q:after,blockquote:before,blockquote:after{content:"";}
@@ -20,8 +20,15 @@ button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:poin
 input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
 input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
 textarea{overflow:auto;vertical-align:top;}
-body{background-color:#ffffff;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+body{background-color:#ffffff;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;line-height:1em;color:#404040;}
 .container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;}
+section.content section section,
+section.content section aside
+{
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 1.2em;
+    line-height: 1.55em;
+}
 .container:after{clear:both;}
 .container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;}
 .container-fluid:after{clear:both;}
@@ -75,20 +82,19 @@ a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:
 .span-two-thirds{width:620px;}
 .row>.offset-one-third{margin-left:340px;}
 .row>.offset-two-thirds{margin-left:660px;}
-p{font-size:18px;font-weight:normal;line-height:28px;margin-bottom:18px;}p small{font-size:15px;color:#bfbfbf;}
-h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+p{font-weight:normal;margin-bottom:1em;}p small{font-size:0.8em;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{line-height:1.55em;font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
 h1{margin-bottom:18px;font-size:27px;line-height:36px;}h1 small{font-size:18px;}
-h2{font-size:22px;line-height:36px;}h2 small{font-size:14px;}
-h3,h4,h5,h6{line-height:36px;}
-h3{font-size:18px;}h3 small{font-size:14px;}
-h4{font-size:16px;}h4 small{font-size:12px;}
-h5{font-size:14px;}
-h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+h2{font-size:1.3em;margin-bottom:0.5em}h2 small{font-size:0.8em;}
+h3,h4,h5,h6{line-height:1.55em;}
+h3{font-size:1.1em;}h3 small{font-size:0.8em;}
+h4{font-size:1.05em;}h4 small{font-size:0.8em;}
+h5{font-size:1em;}
+h6{font-size:0.95em;color:#bfbfbf;text-transform:uppercase;}
 ul,ol,dl{margin:0 0 18px 25px;font-size:18px;font-weight:normal;line-height:24px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
 ul{list-style:disc;}
 ol{list-style:decimal;}
-li{line-height:24px;}
 ul.unstyled{list-style:none;margin-left:0;}
 dl{margin-bottom:18px;}dl dt,dl dd{line-height:24px;}
 dl dt{font-weight:bold;}
@@ -97,12 +103,12 @@ hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
 strong{font-style:inherit;font-weight:bold;}
 em{font-style:italic;font-weight:inherit;line-height:inherit;}
 .muted{color:#bfbfbf;}
-blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:0.9em;font-weight:300;line-height:1.3em;margin-bottom:0;}
 blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before {content:'\2014 \00A0';}
 address{display:block;line-height:18px;margin-bottom:18px;}
-tt,code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+tt,code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:0.8em;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 tt,code{background-color:#fee9cc;color:rgba(0, 0, 0, 0.75);padding:1px 3px;white-space:pre}
-pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
 form{margin-bottom:18px;}
 fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
 form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;}
@@ -365,7 +371,7 @@ padding-top: 40px; /* 40px to make the container go all the way to the bottom of
 text-align: center; /* center align it with the container */
 }
 .container {
-width: 600px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+width: 720px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
 }
 
 /* The white background content wrapper */
@@ -388,11 +394,6 @@ padding: 20px 20px 10px;
 margin: -20px -20px 20px;
 }
 
-/* Styles you shouldn't keep as they are for displaying this base example only */
-.content .span14 {
-min-height: 500px;
-}
-
 .topbar .btn {
 border: 0;
 }
@@ -411,11 +412,14 @@ border: 0;
 }
 
 .entry-overview {
-    margin-bottom: 1em;
+    clear:both;
 }
 
-.entry-overview aside {
+section.content section article.entry-overview aside {
     float: right;
     text-align: right;
+    font-family: inherit;
+    font-size: 0.9em;
     line-height: 36px;
+    margin-left: 1em;
 }
