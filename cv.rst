@@ -40,8 +40,8 @@ Application scalability (uncoupling, optimisation, cache, replication, data part
 Experience
 ----------
 
-Developer Department Manager @ `SensioLabs`_
-.............................................
+★ Developer Department Manager @ `SensioLabs`_
+...............................................
 *since july 2011* Paris, France
 
 Planning and HR (*aka developers*) management.
@@ -52,8 +52,8 @@ Project monitoring, developers' coaching, training and career management.
 
 **Keywords**: HR, management, MSProject, Gantt, Redmine, Symfony2, Git, Gitolite, Twig, PostgreSQL
 
-Web & mobile developer (Founding partner) @ `Freegli.com`_
-...........................................................
+★ Web & mobile developer (Founding partner) @ `Freegli.com`_
+.............................................................
 *since november 2010* Paris, France
 
 Freegli.com is a daily mobile game service : Every day, at 10:10am, Freegli.com gives you a mobile game became free.
@@ -65,8 +65,8 @@ Connection with iTunes search API and Apple Push Notification service.
 **Keywords**: Startup, project management, Symfony2, PostgreSQL, scalability, symfony, MySQL, Git, Rest webservice, web mobile, Objective-C, Cocoa
 
 
-PHP5 Symfony Web Developer @ `SensioLabs`_ & `Extreme Sensio`_
-...............................................................
+★ PHP5 Symfony Web Developer @ `SensioLabs`_ & `Extreme Sensio`_
+.................................................................
 *from june 2009 to july 2011* Paris, France
 
 * `La Plateforme du bâtiment`_ - Saint-Gobain
@@ -93,8 +93,8 @@ And:
 
 **Keywords**: symfony, SVN, Git, PHP5, MySQL PostgreSQL, Redmine, Trac, Twig
 
-PHP5 Symfony Web Developer (founding partner) @ `Communiquez Plus`_
-....................................................................
+★ PHP5 Symfony Web Developer (founding partner) @ `Communiquez Plus`_
+......................................................................
 *from january 2008 to may 2009* Reims, France
 
 In charge of digital media and specifically the Internet.
@@ -112,8 +112,8 @@ Domain name management, DNS, e-mail, e-mailing.
 **Keywords**: WAMP, Eclipse PDT, SVN, Symfony1.2, Drupal, Magento, personnal framework, javascript, prototypeJS, mootools
 
 
-PHP5 Symfony Web Developer @ `Apsides Communication`_
-.....................................................
+★ PHP5 Symfony Web Developer @ `Apsides Communication`_
+.......................................................
 *from december 2006 to january 2009* Reims, France
 
 * `EasyPOP-Santé`_
@@ -136,8 +136,8 @@ PHP5 Symfony Web Developer @ `Apsides Communication`_
 Education
 ---------
 
-Bachelor's degree in Computer Science and Digital Image Engineering
-....................................................................
+★ Bachelor's degree in Computer Science and Digital Image Engineering
+......................................................................
 
   License Professionnelle Informatique Ingénierie de l'Image Numérique
 
@@ -147,8 +147,8 @@ with mention
 
 1 month internship at BLP architectes, Reims, France
 
-2 years professional degree in network and telecoms
-...................................................
+★ 2 years professional degree in network and telecoms
+.....................................................
 
   Diplôme Universitaire Technologique Génie des Télécommunication et Réseaux
 
@@ -158,8 +158,8 @@ with mention
 
 1 month internship at Gemalto (formerly Axalto), Fareham, United Kingdom
 
-French high-school diploma in Science
-.....................................
+★ French high-school diploma in Science
+.......................................
 
   Baccalauréat série Scientifique, option Science et vie de la terre, spécialité Physique/Chimie
 
