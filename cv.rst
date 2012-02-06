@@ -25,9 +25,8 @@ Application scalability (uncoupling, optimisation, cache, replication, data part
 * Macro and micro planning management (Project, Gantt)
 * PHP5 POO, framework MVC symfony 1.x and Symfony2
 * ORM Doctrine1&2, Pomm (PostgreSQL data mapper)
-* Webservices Soap/Rest, TPE
-* Web accessibility and standards, SEO
 * Soap/Rest Webservices
+* Web accessibility and standards, SEO
 * Objective-C, Cocoa, iOs
 * Web server administration
 
@@ -143,7 +142,7 @@ Education
 
 *2004/2005* @ Reims University Institute of Technology, France
 
-with mention
+with honors
 
 1 month internship at BLP architectes, Reims, France
 
@@ -154,7 +153,7 @@ with mention
 
 *2002/2004* @ Caen University Institute of Technology, France
 
-with mention
+with honors
 
 1 month internship at Gemalto (formerly Axalto), Fareham, United Kingdom
 
@@ -165,7 +164,7 @@ with mention
 
 *2002/2004* @ Deauville High School, France
 
-with mention
+with honors
 
 .. class:: btn
 
@@ -179,7 +178,7 @@ Extra-professional activities
 * Photography (`my flickr`_)
 * `Reading`_ (Fantasy, SciFi, geek)
 * Biking
-* RPG (with real paper inside)
+* RPG (with real pen and paper inside)
 * Wargames (W40k)
 
 .. class:: btn

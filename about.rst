@@ -24,7 +24,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 * |career stackoverflow logo| `Stackoverflow Career`_
 * |github logo| `My Github`_, `Freegli`_, `Sensio`_
 * |sensio connect logo| `Sensio connect`_
-* |linkedin logo| `LinkedIn (en)`_, `LinkedIn (fr)`_
+* |linkedin logo| `LinkedIn`_
 * |viadeo logo| `Viadeo (en)`_, `Viadeo (fr)`_
 * |flickr logo| `Flickr`_
 * |delicious logo| `Delicious`_
@@ -53,8 +53,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 .. _My Github: https://github.com/xavierbriand
 .. _Freegli: https://github.com/Freegli
 .. _Sensio: https://github.com/sensio
-.. _LinkedIn (en): http://www.linkedin.com/in/xavierbriand
-.. _LinkedIn (fr): http://www.linkedin.com/in/xavierbriand/fr
+.. _LinkedIn: http://www.linkedin.com/in/xavierbriand
 .. _Viadeo (en): http://www.viadeo.com/en/profile/xavier.briand
 .. _Viadeo (fr): http://www.viadeo.com/fr/profile/xavier.briand
 .. _Flickr: http://flickr.com/xavierbriand/
