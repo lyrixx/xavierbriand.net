@@ -1,6 +1,12 @@
 active_modules: [pygments, tags, blog, latex]
-auhtor: Xavier Briand
-canonical_url: http://xavierbriand.net/
+auhtor:         Xavier Briand
+canonical_url:  http://xavierbriand.net/
+feed:
+    name:       Xavier Briand
+    subtitle:   "Web developer, but not only..."
 modules:
     pygments:
-        style: tango
+        style:  tango
+    blog:
+        use_pagination: True
+        per_page:       5
