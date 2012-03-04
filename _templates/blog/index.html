@@ -3,27 +3,37 @@
 {% block body %}
 
     {%- for entry in pagination.get_slice() %}
-        <article class=entry-overview>
-            <div class=date>{{ format_date(entry.pub_date, format='medium') }}</div>
-            <div class=detail>
-                {% if entry.tags %}
-                    <aside>
-                    {% for tag in entry.tags|sort(case_sensitive=true) %}
-                       <span class="label notice"><a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a></span>
-                       {% if not loop.index % 3 %}<br />{% endif %}
-                    {%- endfor %}
-                    </aside>
-                {% endif %}
-
-                <header>
+        <article>
+            <header>
+            </header>
+            <div class="text" id="blockquote">
+                <time>
+                    {{ format_date(entry.pub_date, format='medium') }}
+                </time>
+                <div class="post">
                     <h2><a href="{{ link_to('page', slug=entry.slug) }}">{{ entry.title }}</a></h2>
-                </header>
-                {% if entry.summary %}
-                    <section class=summary>{{ entry.render_summary() }}</section>
-                {% endif %}
+                    {% if entry.summary %}
+                        <p>{{ entry.summary }}</p>
+                    {% endif %}
+                </div>
             </div>
+            <footer>
+                <div class="permalink">
+                    <a title="{{ entry.title }}" href="{{ link_to('page', slug=entry.slug) }}">permalink</a>
+                </div>
+                {% if entry.tags %}
+                    <ul class="tags">
+                        <li><strong>Tags: </strong></li>
+                        {% for tag in entry.tags|sort(case_sensitive=true) %}
+                            <li>
+                                <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </footer>
         </article>
-    {%- endfor %}
+    {% endfor %}
 
     {% if show_pagination and pagination.pages > 1 %}
         {{ pagination }}

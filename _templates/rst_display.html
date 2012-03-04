@@ -6,37 +6,36 @@
 {% endif %}
 
 {% block body %}
-
-    <section>
-        {{ rst.fragment }}
-    </section>
-
-    {% if ctx.tags or ctx.pub_date %}
-        <hr />
-        <aside>
-            <p>
-                {% if ctx.pub_date %}
-                    This entry was written on {{ format_date(ctx.pub_date, format='full') }}
-                    <br />
-                {% endif %}
-
-                {% if ctx.pub_date and ctx.tags %}
-                    and was tagged
-                {% else %}
-                    This entry was tagged
-                {% endif %}
-
-                {% if ctx.tags %}
+    <article>
+        <header>
+        </header>
+        <div class="text" id="blockquote">
+            {% if ctx.public %}
+                <time>
+                    {{ format_date(ctx.pub_date, format='medium') }}
+                </time>
+            {% endif %}
+            <div class="post">
+                {{ rst.fragment }}
+                <aside>
+                    If you have any question or comment, You can reach me on <a href="http://twitter.com/xavierbriand" title="@xavierbriand">twitter</a> on via <a href="mailto:&#120;&#097;&#118;&#105;&#101;&#114;&#098;&#114;&#105;&#097;&#110;&#100;&#032;&#064;&#032;&#103;&#109;&#097;&#105;&#108;&#032;&#046;&#032;&#099;&#111;&#109;">email</a>.
+                </aside>
+            </div>
+        </div>
+        <footer>
+            <div class="permalink">
+                <a title="{{ ctx.title }}" href="{{ link_to('page', slug=ctx.slug) }}">permalink</a>
+            </div>
+            {% if ctx.tags %}
+                <ul class="tags">
+                    <li><strong>Tags: </strong></li>
                     {% for tag in ctx.tags|sort(case_sensitive=true) %}
-                        {%- if not loop.first and not loop.last %}, {% endif -%}
-                        {%- if loop.last and not loop.first %} and {% endif %}
-                        <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
-                    {%- endfor %}
-                {% endif %}
-            </p>
-            <p>
-                If you have any question or comment, You can reach me on <a href="http://twitter.com/xavierbriand" title="@xavierbriand">twitter</a> on via <a href="mailto:&#120;&#097;&#118;&#105;&#101;&#114;&#098;&#114;&#105;&#097;&#110;&#100;&#032;&#064;&#032;&#103;&#109;&#097;&#105;&#108;&#032;&#046;&#032;&#099;&#111;&#109;">email</a>.
-            </p>
-        </aside>
-    {% endif %}
+                        <li>
+                            <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </footer>
+    </article>
 {% endblock %}

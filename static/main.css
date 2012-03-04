@@ -1,0 +1,278 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#2e3b44 url(http://static.tumblr.com/nbxilpo/8uqkz74z6/header-bg.jpg) no-repeat center top;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: #3ea3b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #3ea3b5;
+    font-family: 'Wellfleet', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 a, h4 a {
+    color: #1a2228;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p, h5 {
+    line-height: 22px;
+    text-align:left;
+    color:#1a2228;
+}
+ul li, ol li {
+    line-height: 25px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    font-family: Arial;
+    font-size:20px;
+    color: #000;
+    margin-top: 0;
+}
+
+p.aside {
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+p.aside a {
+    font-family: 'Wellfleet', cursive;
+    color: #3EA3B5;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.quote p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:28px;
+    color: #3ea3b5;
+    margin-top: 0;
+    font-weight:bold;
+}
+
+#container {
+    width: 770px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+#container > header {
+    margin: 0 0 0 125px;
+    overflow: hidden;
+    width: 562px;
+}
+
+header > nav {
+    text-align: center;
+    font-size: 22px;
+    color: #3ea3b5;
+    font-family: 'Wellfleet', cursive;
+}
+
+header > nav > a {
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    display: block;
+    margin: 20px 0;
+    line-height: 50px;
+    text-shadow: 2px 0px 5px #1A2228;
+}
+
+#container > footer {
+    color: white;
+    text-align:center;
+    margin-top: 25px;
+}
+
+.link, .photo, .text, .video, .audio, .chat, .quote {
+    overflow: hidden;
+    margin-bottom: 40px;
+    position:relative;
+}
+
+article > div > time {
+    float: left;
+    width: 50px;
+    height: 75px;
+    padding: 4px 0 4px 0;
+    margin: 0 -120px 0 70px;
+    color: white;
+    background: url(http://static.tumblr.com/nbxilpo/F9Skz6qzs/date-bg.png) no-repeat;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+}
+
+article > div > div.post {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #1A2228;
+    float: left;
+    margin-left: 121px;
+    min-height: 100px;
+    padding: 20px 20px 0 25px;
+    position: relative;
+    width: 522px;
+}
+
+.postMeta li span {
+    font-size: 29px;
+    color:#3ea3b5;
+    line-height: 40px;
+}
+
+
+article > header {
+    background: url(http://static.tumblr.com/nbxilpo/qEYl559l2/post-top.png) no-repeat;
+    margin-left: 112px;
+    width: 585px;
+    height: 43px;
+    margin-top:10px;
+    margin-bottom:-15px;
+    position:relative;
+}
+
+article > footer {
+    background: url(http://static.tumblr.com/nbxilpo/sfQl559gh/post-bottom.png) no-repeat;
+    margin-left:112px;
+    width: 585px;
+    height: 66px;
+    margin-top:-50px;
+    margin-bottom:30px;
+}
+
+.tags {
+    clear: both;
+    font-size: 12px;
+    float:right;
+    margin-right:25px;
+    margin-top:-17px;
+    padding: 3px 5px 3px 5px;
+}
+
+.tags a {
+    color: #4d4d4d;
+}
+
+.tags li {
+    display: inline;
+    margin-right: 7px;
+    line-height: 15px;
+    color: #3ea3b5;
+}
+
+.footer {
+    width:585px;
+    margin: 20px 0 0 125px;
+}
+
+.footer a, .footer p {
+    color: #4d5c68;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#container .first, #sidebar .first {
+    margin-top: 0;
+}
+
+.permalink {
+    padding-top:20px;
+    padding-left:35px;
+    font-size: 10px;
+    font-style:italic;
+    display:block;
+    width:50px;
+}
+
+.permalink a {
+    color:#b1b1b1 ;
+}
+
+.pagination {
+    text-align:center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight:bold;
+    color: #fff;
+    font-size:30px;
+    letter-spacing: -.08em;
+}
+
+.pagination a {
+    color: white;
+}
+
+.quote1 {
+    overflow: hidden;
+    margin-bottom: 40px;
+    position:relative;
+}
+
+pre {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    margin: 0 0 18px;
+    padding: 8.5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+tt, code, pre {
+    border-radius: 3px 3px 3px 3px;
+    font-family: Monaco,Andale Mono,Courier New,monospace;
+    font-size: 0.8em;
+    padding: 0 3px 2px;
+}
+
+tt, code {
+    background-color: #FEE9CC;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    white-space: pre;
+}
