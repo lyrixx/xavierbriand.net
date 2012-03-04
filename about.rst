@@ -3,20 +3,23 @@ public: no
 About me
 ========
 
-Me is Xavier Briand, currently *Web developper* at `SensioLabs`_.
+Me is Xavier Briand, currently *developers' team leader* at `SensioLabs`_.
 
   Check my `CV`_.
 
-But I'm also a co-creator of `Freegli.com`_ startup (highlights iPhone/iPad
+But I'm also one of the co-creators of `Freegli.com`_ startup (highlights iPhone/iPad
 games free for one day).
 There is an `iPhone app`_ too.
 
 Otherwise, I do a lot of other things (maybe too much!):
-go working with my bike, `read fantasy, SciFi, geek books`_ in subway,
+go working with my bicycle, `read fantasy, SciFi, geek books`_ in the subway,
 play RPG with real paper and pen inside, do some warhammer 40k with my friends
 too, and `take pictures, a lot`_,
 
 Yes, I've got long days.
+
+If you are from Toronto Canada and you need a web developer, I'm actively seeking
+**full-time position** from july 2012.
 
 You can find me as **xavierbriand** here, here and also here on Internet:
 

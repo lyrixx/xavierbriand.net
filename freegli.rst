@@ -15,7 +15,7 @@ It allows freegli team to track apps from iTunes store, handle users' subscripti
 But the major part of traffic comes from the iPhone app via Rest webservices. To speed up this webservices, pages are served through
 a reverse proxy called Varnish [#varnish]_.
 
-The v2 is currently under development. It will be powered by Symfony2 [#sf2]_ PHP framework and PostgreSQL database (with Pomm [#pomm]_ component).
+The v2 is currently under development. It will be powered by Symfony2 [#sf2]_ PHP framework and PostgreSQL database.
 This new version will be able to scale up with the constant increase of success of our service.
 
 You can find some of my work under MIT license on Github:
@@ -30,7 +30,6 @@ You can find some of my work under MIT license on Github:
 .. _Doctrine website: http://www.doctrine-project.org/projects/orm/1.2/docs/manual/introduction/en
 .. _Varnish website: https://www.varnish-cache.org/
 .. _Symfony website: http://symfony.com/
-.. _Pomm website: http://pomm.coolkeums.org/
 .. _APNs: https://github.com/Freegli/APNs
 .. _FreegliAPNSBundle: https://github.com/Freegli/FreegliAPNSBundle
 .. _iTunesStoreWSSearch: https://github.com/Freegli/iTunesStoreWSSearch
@@ -40,4 +39,3 @@ You can find some of my work under MIT license on Github:
 .. [#doctrine] Doctrine is a ORM base on the Active Record design pattern. See `doctrine website`_.
 .. [#varnish] Varnish is a reverse proxy able to improve your website performances. See `Varnish website`_.
 .. [#sf2] Symfony2 is a full stack framework written in PHP 5.3. See `Symfony website`_.
-.. [#pomm] Pomm is an Object Model Manager for Postgresql. See `Pomm website`_.

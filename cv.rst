@@ -3,132 +3,230 @@ public: no
 Curriculum Vitae
 ================
 
-.. class:: btn
+.. class:: aside
 
-`Experiences <#experience>`_ `Educations <#education>`_  `and... <#extra-professional-activities>`_
+`Experiences <#experience>`_ | `Educations <#education>`_  | `and... <#extra-professional-activities>`_
 
 Xavier Briand
 -------------
-Paris, France
 
-Currently **Developer Department Manager** at **Sensio Labs**, and **Web & mobile developer** (Founding partner) at **Freegli.com**.
+Currently **Developers' team leader** at **Sensio Labs**, and **Web & mobile
+developer** (Founding partner) at **Freegli.com**.
 
-Actively seeking **full-time position** from july 2012. Willing to relocate to **Canada**, **Ontario**.
+Actively seeking **full-time position** from july 2012 in **Toronto**,
+**Ontario** **Canada**.
 
-**Web application development** with OOP PHP5 and **Symfony 1&2 framework** [#symfony]_.
+My speciality is **designing and developing web applications** with Open Sources
+technologies. I'm fully proficient with **PHP 5.3**, **Symfony2** framework
+[#symfony]_, on a Linux/MacOs environment with a keyboard and a Vim editor.
 
-Ecommerce issues management, Soap/Rest **webservices** implementation as server and client.
-Application scalability (uncoupling, optimisation, cache, replication, data partitioning, load balancing, failover, ...).
+I'm working on **e-commerce** and **search engine** issues, Soap/Rest
+**webservices** (as server and client), and application scalability (uncoupling,
+optimisation, cache, replication, data partitioning, sharding, load balancing,
+failover, ...).
 
-**Significant experience of lead developer, trainer, coach**, but also in management of macro and micro planning, and HR (management, recruitment, career manager).
+I have a **significant experiences as lead developer, trainer, coach**, and
+also in management of macro and micro planning, and HR (management, recruitment,
+career manager).
+
+Otherwise I'm learning Python.
 
 * Macro and micro planning management (Project, Gantt)
-* PHP5 POO, framework MVC symfony 1.x and Symfony2
-* ORM Doctrine1&2, Pomm (PostgreSQL data mapper)
+* POO PHP 5.3, framework MVC symfony 1.x and Symfony2
+* ORM Doctrine1&2, Propel, Pomm
 * Soap/Rest Webservices
 * Web accessibility and standards, SEO
-* Objective-C, Cocoa, iOs
 * Web server administration
+* Objective-C, Cocoa, iOs
 
-.. class:: btn
+.. class:: aside
 
-`to top <#>`_
+`↑ to top ↑ <#>`_
 
 ----
 
 Experience
 ----------
 
-★ Developer Department Manager @ `SensioLabs`_
+★ Developers' Team Leader @ `SensioLabs`_
 ...............................................
-*since july 2011* Paris, France
+*from july 2011 to july 2012* Paris, France
 
-Planning and HR (*aka developers*) management.
+About the company
+'''''''''''''''''
+Sensio Labs is a specialist in **open source** and creator of the PHP framework
+Symfony. Sensio Labs offers a wide range of services around Symfony 1 & 2. (80+
+employees, 11M€ revenue)
 
-Department organization: communication, training, team leading.
-Interdepartmental coordination, projects' boostrapping and debriefing.
-Project monitoring, developers' coaching, training and career management. 
+**Planning and HR (aka developers) management**.
 
-**Keywords**: HR, management, MSProject, Gantt, Redmine, Symfony2, Git, Gitolite, Twig, PostgreSQL
+Missions:
+'''''''''
+* **Department organization**
+
+  My daily work consists in **improving** internal communication, **training** and
+  **leading** over 10+ developers, and **managing** macro and micro planning in
+  coordination with training and consulting departments.
+
+* **Internal tools development/setup**
+
+  Development of a web application to manage the teams' planning (in Symfony2, Doctrine2).
+  **Setting up the development environment** with **Git**, Gitolite and Gitweb for SCM,
+  **Jenkins** for continuous testing and **Sonar** for code metrics. Application's
+  deployment is standardized with **Fabric** python script and **Run Deck** application.
+
+* **Project coaching**
+
+  I give a hand to project managers by bootstrapping, monitoring and debriefing projects.
+
+
+*Keywords*::
+
+    HR, management, MSProject, Gantt, Redmine, Symfony2, Git, Gitolite, Twig,
+    Solr
 
 ★ Web & mobile developer (Founding partner) @ `Freegli.com`_
 .............................................................
-*since november 2010* Paris, France
+*founded in november 2010* Paris, France
 
-Freegli.com is a daily mobile game service : Every day, at 10:10am, Freegli.com gives you a mobile game became free.
+About the company
+'''''''''''''''''
+Freegli.com is a daily mobile game service : Every day, at 10:10am, Freegli.com
+gives you a mobile game became free.
 
-Web and mobile project management for a startup service.
+Mission
+'''''''
+I'm the "**technical guy**" of the **startup**. I develop and enhance a web
+application which is a **business backend** as well as a web
+**frontend** and a **data provider** for **mobile** applications.
 
-Connection with iTunes search API and Apple Push Notification service.
+I develop PHP components like interfaces for **iTunes Store** and **Apple Push
+Notification Service**. See my `github repo`_.
 
-**Keywords**: Startup, project management, Symfony2, PostgreSQL, scalability, symfony, MySQL, Git, Rest webservice, web mobile, Objective-C, Cocoa
+*Keywords*::
 
+    Startup, project management, Symfony2, Doctrine2, PostgreSQL, scalability,
+    MySQL, Git, Rest webservice, web mobile, Objective-C, Cocoa
 
 ★ PHP5 Symfony Web Developer @ `SensioLabs`_ & `Extreme Sensio`_
 .................................................................
 *from june 2009 to july 2011* Paris, France
 
-* `La Plateforme du bâtiment`_ - Saint-Gobain
-  Ecommerce web site lead developer.
+About the company
+'''''''''''''''''
+Extreme Sensio advises and assists brands in deploying digital strategies
+creative, innovative and sustainable, built around ROI goals.
 
-  **Keywords**: Symfony2, Doctrine2, Soap Server/client webservices, paybox, gmap api.
+Projects:
+'''''''''
 
-* `MyEvian`_ - Evian
+* `La Plateforme du bâtiment`_ - Saint-Gobain (8 months)
+
+  **Lead developer**
+
+  A e-commerce website connected to an information system and a data provider for the
+  mobile application. Complex checkout process with availability computing
+  according to many factor (availability, distance, origin, ...)
+
+  *Keywords*::
+
+    Symfony2, Doctrine2, Soap Server/client webservices, paybox, Gmap API
+
+* `MyEvian`_ - Evian (3 months)
+
   Third party maintenance.
 
-  **Keywords**: Magento, UPS webservices
+  *Keywords*::
 
-* `Paris Convention and Visitors Bureau`_ 
+    Magento, UPS webservices
+
+* `Paris Convention and Visitors Bureau`_ (14 months)
+
   Third party maintenance.
 
-  Creation from scratch og a search engine and a ecommerc module. High traffic website.
+  Setted up versioning and deployment process for a high traffic web site.
 
-  **Keywords**: symfony1, propel, ecommerce, search engine, load balancing, super cache.
+  Created from scratch of a search engine, an e-commerce module and add-ons
+  to markdown parser.
 
-And:
+  *Keywords*::
 
-* Symfony coaching, Symfony2 and PHP OOP trainer
-* 5+ marketing websites (Sodiaal, St-Hubert, Virbac,...) in symfony1.4 and doctrine1.2
+    symfony1, propel, ecommerce, search engine, load balancing, super cache,
+    SVN, lexing, parsing, stemming
 
-**Keywords**: symfony, SVN, Git, PHP5, MySQL PostgreSQL, Redmine, Trac, Twig
+* And:
+
+  * Symfony **coaching**, Symfony2 and PHP OOP **trainer** (~4 trainings per year
+    with 6+ trainnees)
+  * 5+ marketing websites (Sodiaal, St-Hubert, Virbac,...) in symfony1.4 and
+    doctrine1.2
+
+*Keywords*::
+
+    PHP5, symfony, MySQL, PostgreSQL, SVN, Trac, Git, Redmine, Twig
 
 ★ PHP5 Symfony Web Developer (founding partner) @ `Communiquez Plus`_
 ......................................................................
 *from january 2008 to may 2009* Reims, France
 
-In charge of digital media and specifically the Internet.
-Responsible for the design, configuration and development of company's applications and websites.
+About the company
+'''''''''''''''''
+Communiquez-Plus is a communication agency working for SOHO/SME.
 
-Candissime
-''''''''''
-Japanese/French candy ecommerce website.
+In charged of digital media and specifically the Internet part.
 
-**Keywords**: symfony1.2, i18n, l10n, propel, mysql, SIPS payment
+Projects:
+'''''''''
 
-Server management running on Fedora and CentOS
-Domain name management, DNS, e-mail, e-mailing. 
+* **Candissime**
 
-**Keywords**: WAMP, Eclipse PDT, SVN, Symfony1.2, Drupal, Magento, personnal framework, javascript, prototypeJS, mootools
+  Japanese/French deluxe candy ecommerce website.
 
+  *Keywords*::
+
+    symfony1.2, i18n, l10n, propel, mysql, SIPS payment
+
+* And:
+
+  Drupal, Magento,
+  Server management running on Fedora and CentOS,
+  Domain name management, DNS, e-mail, e-mailing.
+
+*Keywords*::
+
+    WAMP, Eclipse PDT, SVN, symfony1.2, Drupal, Magento, personnal framework,
+    javascript, prototypeJS, mootools
 
 ★ PHP5 Symfony Web Developer @ `Apsides Communication`_
 .......................................................
 *from december 2006 to january 2009* Reims, France
 
+About the company
+'''''''''''''''''
+Apsides Communication is a communication agency working with pharmacy group.
+
+Projects:
+'''''''''
 * `EasyPOP-Santé`_
-  Video sequence organizer for advertising management with rich interface and browser compatibility issues
 
-  **Keywords**: symfony1, prototypeJS
+  Implemented a video sequence organizer for advertising management with rich interface and
+  browser compatibility issues
 
-* Web sites refactoring
+  *Keywords*::
 
-  Web gate, e-business, static
+    symfony1, prototypeJS
 
-  **Keywords**: PHP4, PHP5, javascript
+* And:
 
-.. class:: btn
+  Refactored PHP4 web sites: Web gate, e-business, static web site, ...
 
-`to top <#>`_
+  *Keywords*::
+
+    PHP4, PHP5, javascript
+
+.. class:: aside
+
+`↑ to top ↑ <#>`_
 
 ----
 
@@ -166,9 +264,9 @@ with honors
 
 with honors
 
-.. class:: btn
+.. class:: aside
 
-`to top <#>`_
+`↑ to top ↑ <#>`_
 
 ----
 
@@ -177,20 +275,21 @@ Extra-professional activities
 
 * Photography (`my flickr`_)
 * `Reading`_ (Fantasy, SciFi, geek)
-* Biking
+* Bicycling, hicking
 * RPG (with real pen and paper inside)
 * Wargames (W40k)
 
-.. class:: btn
+.. class:: aside
 
-`to top <#>`_
+`↑ to top ↑ <#>`_
 
-.. [#symfony] Symfony is a PHP Web Development Framework. See `Symfony website`_ 
+.. [#symfony] Symfony is a PHP Web Development Framework. See `Symfony website`_
 
 .. _`Symfony website`: http://symfony.com/
 .. _`SensioLabs`: http://sensiolabs.com/
 .. _`Extreme Sensio`: http://www.extreme-sensio.com/
 .. _`Freegli.com`: http://www.freegli.com/
+.. _`github repo`: https://github.com/Freegli
 .. _`La Plateforme du bâtiment`: http://www.laplateforme.com/
 .. _`MyEvian`: http://www.myevian.com/
 .. _`Paris Convention and Visitors Bureau`: http://www.parisinfo.com/
