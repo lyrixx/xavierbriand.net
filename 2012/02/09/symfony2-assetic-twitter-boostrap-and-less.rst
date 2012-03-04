@@ -1,5 +1,8 @@
 public: yes
 tags: [Symfony2, assetic, bootstrap, less, mac]
+summary:
+    How to setup your environement to use Twitter boostrap css framework in less
+    with Symfony2 and Assetic on MacOs
 
 Symfony2, Assetic, Twitter bootstrap and less on Mac
 ====================================================

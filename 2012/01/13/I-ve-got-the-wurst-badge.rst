@@ -1,5 +1,7 @@
 public: yes
 tags: [symfony, wtf]
+summary:
+    It's all about sausages!
 
 I've got the Würst connoisseur badge
 ====================================

@@ -8,7 +8,7 @@ OS
   Linux Debian/Ubuntu or MacOsX
 
 Shell
-  bash with tmux screen multiplexer
+  bash with tmux screen multiplexer or Screen
 
 Text editor
   Vim / MacVim / GVim
