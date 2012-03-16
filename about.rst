@@ -35,6 +35,7 @@ You can find me as **xavierbriand** here, here and also here on Internet:
 .. Others sites:
    * About Me http://about.me/xavierbriand
    * Google+ https://plus.google.com/114239462703343603985
+   * Coderwall http://coderwall.com/xavierbriand
    * Symfonians http://symfonians.net/person/xavierbriand
    * Plurk http://www.plurk.com/xavierbriand
    * fluidr http://www.fluidr.com/photos/xavierbriand
