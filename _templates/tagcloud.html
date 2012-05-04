@@ -4,10 +4,20 @@
 Tags
 {% endblock %}
 {% block body %}
-  <ul class=tagcloud>
-  {%- for tag in get_tags(limit=50) %}
-    <li><a href="{{ link_to('tag', tag=tag.name) }}" style="font-size: {{
-      tag.size }}%">{{ tag.name }}</a>
-  {%- endfor %}
-  </ul>
+    <article>
+        <header>
+        </header>
+        <div class="text" id="blockquote">
+            <div class="post">
+                <ul class=tagcloud>
+                {%- for tag in get_tags(limit=50) %}
+                    <li><a href="{{ link_to('tag', tag=tag.name) }}" style="font-size: {{
+                    tag.size }}%">{{ tag.name }}</a>
+                {%- endfor %}
+                </ul>
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </article>
 {% endblock %}
