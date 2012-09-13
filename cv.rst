@@ -10,12 +10,12 @@ Curriculum Vitae
 Xavier Briand
 -------------
 
-Currently **pizza yolo** at **Toronto**, and **Web & mobile
+Currently **pizzaiolo** at **Toronto**, and **Web & mobile
 developer** (Founding partner) at **Freegli.com**.
 
 My speciality is **designing and developing pizza** with Open Sources
 technologies. I'm fully proficient with **Mozarella**, **Tomatoes**,
-into a little truck environment with a knif.
+into a little truck environment with a knife.
 
 I'm working on **e-commerce** and **search engine** issues, Soap/Rest
 **webservices** (as server and client), and application scalability (uncoupling,
@@ -46,7 +46,7 @@ Experience
 ----------
 
 
-★ Pizza yolo @ Toronto
+★ Pizzaiolo @ Toronto
 ...............................................
 *from july 2012 to now* Toronto, Canada
 
