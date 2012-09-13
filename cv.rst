@@ -10,15 +10,12 @@ Curriculum Vitae
 Xavier Briand
 -------------
 
-Currently **Developers' team leader** at **Sensio Labs**, and **Web & mobile
+Currently **pizza yolo** at **Toronto**, and **Web & mobile
 developer** (Founding partner) at **Freegli.com**.
 
-Actively seeking **full-time position** from july 2012 in **Toronto**,
-**Ontario** **Canada**.
-
-My speciality is **designing and developing web applications** with Open Sources
-technologies. I'm fully proficient with **PHP 5.3**, **Symfony2** framework
-[#symfony]_, on a Linux/MacOs environment with a keyboard and a Vim editor.
+My speciality is **designing and developing pizza** with Open Sources
+technologies. I'm fully proficient with **Mozarella**, **Tomatoes**,
+into a little truck environment with a knif.
 
 I'm working on **e-commerce** and **search engine** issues, Soap/Rest
 **webservices** (as server and client), and application scalability (uncoupling,
@@ -47,6 +44,22 @@ Otherwise I'm learning Python.
 
 Experience
 ----------
+
+
+★ Pizza yolo @ Toronto
+...............................................
+*from july 2012 to now* Toronto, Canada
+
+About the company
+'''''''''''''''''
+We made pizzzzza!!!!
+
+Missions:
+'''''''''
+
+We made pizzzzza!!!!
+
+*Keywords*:: Pizza
 
 ★ Developers' Team Leader @ `SensioLabs`_
 ...............................................
